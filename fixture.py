@@ -9,7 +9,7 @@ def benchmark(func):
 
     return wrapper
 
-
+#https://tproger.ru/translations/demystifying-decorators-in-python
 @benchmark
 def fetch_webpage():
     import requests

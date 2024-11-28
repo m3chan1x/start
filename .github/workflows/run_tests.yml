@@ -12,7 +12,7 @@ on:
           -all
 jobs:
   run-tests:
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     name: Tests
     steps:
       -name: Copy source code

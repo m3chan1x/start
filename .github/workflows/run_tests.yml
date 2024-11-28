@@ -12,7 +12,7 @@ on:
           -all
 jobs:
   run-tests:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-20.04
     name: Tests
     steps:
       -name: Copy source code
